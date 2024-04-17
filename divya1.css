@@ -1,0 +1,189 @@
+.NAV{
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+}
+ul li{
+    color: aliceblue;
+    display: inline-block;
+    padding: 14px 16px;
+}
+#Search{
+    float: right;
+}
+.NAV li:hover{
+    background-color: white;
+    color: black;
+}
+#Search:hover{
+background-color: red;
+}
+.Dropdown{
+    display: none;
+    position: absolute;
+    top: 51px;
+    left: 345px;
+}
+.Dropdown ul{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.Dropdown ul li{
+    display: block;
+}
+ul li:hover .Dropdown{
+    display: block;
+}
+.Pictures img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.Info{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 14px 16px;
+width: 100%;
+height: 500px;
+}
+.Text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h1,h4,p{
+    padding: 14px 16px;
+}
+h5{
+    padding: 5px;
+}
+.Span{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    margin-left: 10px;
+}
+.Where p{
+    padding: 5px;
+}
+.Text{
+    display: inline-block;
+}
+.Merches .Merch{
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px;
+}
+.TOUR{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.TOUR ul{
+    width: 1000px;
+}
+.TOUR ul li{
+    display: block;
+    background-color: aliceblue;
+    color: black;
+    border: black;
+}
+.TOUR ul li span{
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    padding: 2px;
+    margin-left: 15px;
+    background-color: rgb(243, 5, 5);
+}
+.Locations{
+    display: flex;
+}
+.Locations img{
+    width: 300px;
+    height: 300px;
+}
+.Where{
+    background-color: aliceblue;
+    color: black;
+    width: 300px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+.Where :last-child:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.Where img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.Left li{
+    color: black;
+    display: block;
+    padding: 2px;
+}
+.Right li{
+    display: block;
+    padding: 5px;
+}
+.Cover{
+    display: flex;
+}
+#Text{
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+#Message{
+    width: 100%;
+    height: 50px;
+}
+.Send{
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.Send:hover{
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+.Apps{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.Apps i{
+    color: grey;
+    height: 40px;
+    width: 40px;
+}
+.Apps i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
